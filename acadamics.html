@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academics | CS Department</title>
+    <link rel="icon" type="image/png" href="cs.ico" sizes="32x32">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+      
+<link rel="stylesheet" href="header-footer.css">
+<style>
+        body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #f3f4f6;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 1rem;
+}
+
+    .useful-links-section {
+    background-color: #f9fafb;
+    padding: 3rem 0;
+}
+
+    main {
+    margin-top: 3rem;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #16a34a;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #4b5563;
+}
+
+p {
+    font-size: 1rem;
+    color: #6b7280;
+}
+
+    section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+section img:hover {
+    transform: scale(1.05);
+}
+
+
+
+    .button-hover:hover {
+    background-color: #15803d;
+    transition: background-color 0.3s ease;
+}
+
+.text-green-700 {
+    color: #16a34a;
+}
+
+.bg-green-700 {
+    background-color: #16a34a;
+}
+
+.bg-green-600 {
+    background-color: #15803d;
+}
+
+.bg-custom-green {
+    background-color: rgba(4, 120, 87, 1);
+}
+
+    .useful-links {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.useful-links h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #4b5563;
+}
+
+.links {
+    margin-top: 1rem;
+}
+
+.link {
+    display: block;
+    color: #16a34a;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: #15803d;
+}
+
+    .department-info {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.department-info h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #4b5563;
+}
+
+.department-info p {
+    margin-top: 1rem;
+    color: #6b7280;
+}
+
+    .footer {
+    background-color: rgba(4, 120, 87, 1);
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.footer p {
+    font-size: 0.875rem;
+}
+
+    @media (max-width: 768px) {
+            .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+
+            section {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+   
+
+    .button-hover {
+        padding: 0.75rem;
+    }
+}
+
+</style>
+</head>
+
+<body class="bg-gray-50">
+
+         
+       <header>
+        <div class="container">
+            <h1>Department of Computer Sciences</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="acadamics.html">Academics</a>
+                <a href="index.html">Research</a>
+                <a href="https://cs.qau.edu.pk/admissions.php" target="_blank">Admissions</a>
+                <a href="faculty.html">Faculty</a>
+            </nav>
+            <button id="hamburger-menu">
+                <span class="material-icons">menu</span>
+            </button>
+        </div>
+    </header>
+
+    <div id="mobile-menu">
+        <a href="index.html">Home</a>
+        <a href="acadamics.html">Academics</a>
+        <a href="index.html">Research</a>
+        <a href="https://cs.qau.edu.pk/admissions.php" target="_blank">Admissions</a>
+        <a href="faculty.html">Faculty</a>
+    </div>
+
+      
+    <main class="container">
+        <h2 class="text-4xl font-semibold text-center text-green-700 mb-12">Our Academic Programs</h2>
+
+          
+        <section class="flex items-center mb-16 p-6 bg-white rounded-lg shadow-lg">
+            <div class="w-1/2 pr-8">
+                <img src="phd.png" alt="PhD Program Image" class="rounded-lg shadow-lg">
+            </div>
+            <div class="w-1/2">
+                <h3 class="text-3xl font-semibold text-green-700 mb-4">PhD in Computer Science</h3>
+                <p class="text-lg text-gray-700 mb-4">
+                    PhD is the highest degree awarded in an academic discipline and is the most satisfying and rewarding educational experience. Students work closely with a faculty member, performing original research, and tackling challenging and unsolved problems.
+                </p>
+                <a href="phd.html" class="text-green-700 font-semibold button-hover px-4 py-2 rounded-md">Read More</a>
+            </div>
+        </section>
+          
+<section class="flex items-center mb-16 p-6 bg-white rounded-lg shadow-lg">
+    <div class="w-1/2 pr-8">
+        <img src="mphil.png" alt="MPhil Program Image" class="rounded-lg shadow-lg">
+    </div>
+    <div class="w-1/2">
+        <h3 class="text-3xl font-semibold text-green-700 mb-4">MPhil in Computer Science</h3>
+        <p class="text-lg text-gray-700 mb-4">
+            The objective of the MPhil Computer Science programme is to train students to initiate research work. The duration of the MPhil programme is two years (4 semesters), with courses focused on research techniques and work.
+        </p>
+        <a href="mphil.html" class="text-green-700 font-semibold button-hover px-4 py-2 rounded-md">Read More</a>
+    </div>
+</section>
+  
+<section class="flex items-center mb-16 p-6 bg-white rounded-lg shadow-lg">
+    <div class="w-1/2 pr-8">
+        <img src="msit.png" alt="MSIT Program Image" class="rounded-lg shadow-lg">
+    </div>
+    <div class="w-1/2">
+        <h3 class="text-3xl font-semibold text-green-700 mb-4">MS in Information Science & Technology</h3>
+        <p class="text-lg text-gray-700 mb-4">
+            The MS program provides an in-depth understanding of information technology and its applications. Students gain expertise in data science, machine learning, software engineering, and more.
+        </p>
+        <a href="msit.html" class="text-green-700 font-semibold button-hover px-4 py-2 rounded-md">Read More</a>
+    </div>
+</section>
+  
+<section class="flex items-center mb-16 p-6 bg-white rounded-lg shadow-lg">
+    <div class="w-1/2 pr-8">
+        <img src="ms-ds.png" alt="MS Data Science Program Image" class="rounded-lg shadow-lg">
+    </div>
+    <div class="w-1/2">
+        <h3 class="text-3xl font-semibold text-green-700 mb-4">MS in Data Science</h3>
+        <p class="text-lg text-gray-700 mb-4">
+            The MS DS program offers a comprehensive curriculum focused on both theoretical and practical aspects of computer science, covering algorithms, programming languages, and system design.
+        </p>
+        <a href="msds.html" class="text-green-700 font-semibold button-hover px-4 py-2 rounded-md">Read More</a>
+    </div>
+</section>
+  
+<section class="flex items-center mb-16 p-6 bg-white rounded-lg shadow-lg">
+    <div class="w-1/2 pr-8">
+        <img src="bs.png" alt="BS Program Image" class="rounded-lg shadow-lg">
+    </div>
+    <div class="w-1/2">
+        <h3 class="text-3xl font-semibold text-green-700 mb-4">BS in Computer Science</h3>
+        <p class="text-lg text-gray-700 mb-4">
+            The BS program provides students with a solid foundation in computer science, covering key areas such as programming, data structures, algorithms, and system architecture.
+        </p>
+        <a href="bs.html" class="text-green-700 font-semibold button-hover px-4 py-2 rounded-md">Read More</a>
+    </div>
+</section>
+
+
+          
+
+    </main>
+
+      
+    <section class="bg-gray-50 py-12 mt-12">
+        <div class="container">
+            <div class="grid">
+                <div class="space-y-4">
+                    <h3 class="text-2xl font-semibold text-gray-800">Useful Links</h3>
+                    <a href="https://qau.edu.pk/" class="text-green-700 hover:text-green-500">QAU</a>
+                    <a href="https://cs.qau.edu.pk/admissions.php" class="text-green-700 hover:text-green-500">Admissions</a>
+                    <a href="contact.html" class="text-green-700 hover:text-green-500">Contact</a>
+                </div>
+                <div class="space-y-4">
+                    <h3 class="text-2xl font-semibold text-gray-800">Department of Computer Sciences</h3>
+                    <p class="text-gray-600">Quaid-i-Azam University, Islamabad, 45320, Pakistan</p>
+                    <p class="text-gray-600">Tel : +92 (051) 9064-2057</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      
+    <footer class="bg-custom-green text-white py-4 mt-12">
+        <div class="container text-center">
+            <p>&copy; 2025 Department of Computer Science, Quaid-e-Azam University. All rights reserved.</p>
+        </div>
+    </footer>
+    <script >
+        
+        const hamburgerMenu = document.getElementById('hamburger-menu');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        hamburgerMenu.addEventListener('click', () => {
+            mobileMenu.classList.toggle('open');
+        });
+        
+            </script>
+</body>
+
+</html

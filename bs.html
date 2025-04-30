@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS in Computer Science | Department of Computer Sciences, Quaid-e-Azam University</title>
+    <link rel="icon" type="image/png" href="cs.ico" sizes="32x32">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Playfair+Display:wght@400;700;900&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="programs.css">    
+    <link rel="stylesheet" href="header-footer.css">
+
+</head>
+
+<body class="bg-gray-100">
+
+    <header class="custom-header-footer text-white shadow-md py-4">
+        <div class="container">
+            <h1 class="text-2xl font-bold">Department of Computer Sciences</h1>
+            <nav class="header-nav">
+                <a href="index.html">Home</a>
+                <a href="acadamics.html">Academics</a>
+                <a href="index.html">Research</a>
+                <a href="https://cs.qau.edu.pk/admissions.php" target="_blank">Admissions</a>
+                <a href="faculty.html">Faculty</a>
+            </nav>
+            <button id="hamburger-menu" class="md-hidden">
+                <span class="material-icons">menu</span>
+            </button>
+        </div>
+    </header>
+
+    <div id="mobile-menu">
+        <a href="index.html">Home</a>
+        <a href="acadamics.html">Academics</a>
+        <a href="index.html">Research</a>
+        <a href="https://cs.qau.edu.pk/admissions.php" target="_blank">Admissions</a>
+        <a href="faculty.html">Faculty</a>
+    </div>
+
+    <section class="intro-section">
+        <h2>BS (Computer Science)</h2>
+        <p>Four years undergraduate program at Quaid-e-Azam University</p>
+    </section>
+
+    <section class="program-overview">
+        <h3>BS (Computer Science) Overview</h3>
+        <p>
+            The BS Computer Science program at QAU offers a solid foundation in computing principles. It equips students with the skills to develop reliable software tools for various domains, blending theoretical knowledge with hands-on experience.
+        </p>
+
+        <div class="program-objectives">
+            <h5>Program Educational Objectives</h5>
+            <ul>
+                <li>Develop and maintain software using modern tools and technologies.</li>
+                <li>Apply their computing knowledge for societal benefit in diverse areas.</li>
+                <li>Engage in lifelong learning to stay updated with technological advancements.</li>
+            </ul>
+        </div>
+
+        <div class="program-outcomes">
+            <h5>Program Learning Outcomes</h5>
+            <ul>
+                <li>Apply computing fundamentals to solve real-world problems.</li>
+                <li>Design and develop solutions to complex computing problems.</li>
+                <li>Work effectively as part of a multidisciplinary team.</li>
+                <li>Engage in lifelong learning and understand professional ethics.</li>
+            </ul>
+        </div>
+
+        <div class="program-structure">
+            <h5>BS Program Structure</h5>
+            <p>
+                The program consists of eight semesters, where students will complete 130 credit hours. The first few semesters focus on foundational courses, and the latter semesters allow specialization in various fields through elective courses. A final-year project consolidates the knowledge gained throughout the program.
+            </p>
+        </div>
+
+        <div class="focus-areas">
+            <h5>Focus Areas</h5>
+            <ul>
+                <li>Artificial Intelligence</li>
+                <li>Data Science</li>
+                <li>Software Engineering</li>
+                <li>Human Centered Computing</li>
+                <li>Information Systems</li>
+                <li>Networks and Security</li>
+            </ul>
+        </div>
+
+        <div class="course-overview">
+            <h5>Courses Overview</h5>
+            <p>
+                The courses are divided into six categories:
+            </p>
+            <ul>
+                <li>Computing Core</li>
+                <li>Domain Core</li>
+                <li>Domain Elective</li>
+                <li>Maths and Supporting Courses</li>
+                <li>Elective Supporting Courses</li>
+                <li>General Education Courses</li>
+            </ul>
+        </div>
+
+        <div class="study-scheme">
+            <h5>Schemes of Study</h5>
+            <a href="doc/scheme-2023.pdf">Fall 2023 onwards</a>
+            <a href="doc/scheme-2021.pdf">Fall 2021 onwards</a>
+        </div>
+    </section>
+
+    <section class="elective-courses">
+        <h5>List of Elective Courses</h5>
+        <div class="course-list">
+               
+            <div class="elective-category">
+                <h6>Artificial Intelligence</h6>
+                <ul>
+                    <li>CSC-351: AI Assisted Programming</li>
+                    <li>CSC-425: Introduction to Computer Vision</li>
+                       
+                </ul>
+            </div>
+            <div class="elective-category">
+                <h6>Data Science</h6>
+                <ul>
+                    <li>CSC-431: Introduction to Recommender Systems</li>
+                    <li>CSC-451: Introduction to Social Computing</li>
+                       
+                </ul>
+            </div>
+            <div class="elective-category">
+                <h6>Software Engineering</h6>
+                <ul>
+                    <li>CSC-324: Web Application Development</li>
+                    <li>CSC-355: Creative Programming for Interactive Apps and Generative Art</li>
+                       
+                </ul>
+            </div>
+               
+        </div>
+    </section>
+
+    <section class="useful-links">
+        <h3>Useful Links</h3>
+        <ul>
+            <li><a href="https://qau.edu.pk/">QAU</a></li>
+            <li><a href="https://cs.qau.edu.pk/admissions.php">Admissions</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </section>
+
+    <footer class="custom-footer">
+        <p>2025 &copy; Department of Computer Sciences, QAU, Islamabad</p>
+    </footer>
+
+    <script>
+        const hamburgerMenu = document.getElementById('hamburger-menu');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        hamburgerMenu.addEventListener('click', () => {
+            mobileMenu.classList.toggle('open');
+        });
+    </script>
+
+</body>
+
+</html>

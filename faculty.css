@@ -1,0 +1,187 @@
+    body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 1400px;         margin: 0 auto;
+    padding: 20px;
+}
+
+    .custom-header-footer {
+    background-color: #0047AB;     }
+
+.header-nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;     }
+
+.header-nav a:hover {
+    text-decoration: underline;
+}
+
+#hamburger-menu {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0;
+}
+
+#mobile-menu {
+    display: none;
+    background-color: #0047AB;
+    padding: 15px;
+    text-align: center;
+}
+
+#mobile-menu.open {
+    display: block;
+}
+
+#mobile-menu a {
+    color: white;
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+    .faculty-header {
+    padding: 30px 0;         background-color: #f9f9f9;
+}
+
+.faculty-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+    .faculty-introduction {
+    padding: 20px 0;         background-color: #fff;
+}
+
+.faculty-introduction h2 {
+    color: #0047AB;
+    margin-bottom: 8px;     }
+
+    .faculty-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));         gap: 15px;         padding: 15px;         background-color: #f4f4f4;
+}
+
+.faculty-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;         text-align: center;
+}
+
+.faculty-card img {
+    width: 100px;         height: 100px;         border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;     }
+
+.faculty-card h3 {
+    margin-top: 0;
+    margin-bottom: 3px;         color: #1c3879;         font-size: 1em;     }
+
+.faculty-card h3 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.faculty-card h3 a:hover {
+    text-decoration: underline;
+}
+
+.faculty-card p {
+    margin-bottom: 8px;         color: #555;
+    font-size: 0.9em;     }
+
+.faculty-card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 8px;     }
+
+.faculty-card ul li {
+    margin: 3px 0;         color: #777;
+    font-size: 0.85em;     }
+
+.faculty-card p a {
+    color: #007bff;         text-decoration: none;
+    font-size: 0.9em;     }
+
+.faculty-card p a:hover {
+    text-decoration: underline;
+}
+
+    .custom-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;         position: relative;         width: 100%;
+    font-size: 0.9em;     }
+
+    @media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    #hamburger-menu {
+        display: block;
+    }
+
+    .faculty-cards-container {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));             gap: 10px;             padding: 10px;         }
+
+    .faculty-card {
+        padding: 10px;         }
+
+    .faculty-card img {
+        width: 80px;             height: 80px;             margin-bottom: 8px;         }
+
+    .faculty-card h3 {
+        font-size: 0.9em;         }
+
+    .faculty-card p,
+    .faculty-card ul li {
+        font-size: 0.8em;         }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        padding: 15px;
+    }
+
+    .header-nav a {
+        margin-left: 10px;             font-size: 0.95em;         }
+
+    .faculty-cards-container {
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));             gap: 12px;             padding: 12px;         }
+
+    .faculty-card {
+        padding: 12px;         }
+
+    .faculty-card img {
+        width: 90px;             height: 90px;             margin-bottom: 10px;         }
+
+    .faculty-card h3 {
+        font-size: 0.95em;         }
+
+    .faculty-card p,
+    .faculty-card ul li {
+        font-size: 0.85em;         }
+}
+
+@media (min-width: 1200px) {
+    .header-nav a {
+        margin-left: 20px;             font-size: 1em;         }
+}

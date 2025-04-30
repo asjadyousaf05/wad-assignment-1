@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MPhil in Computer Science | Department of Computer Sciences, Quaid-e-Azam University</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="icon" type="image/png" href="cs.ico" sizes="32x32">
+    <link rel="stylesheet" href="header-footer.css">
+    <link rel="stylesheet" href="programs.css">
+    <style>
+        /* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9fafb;
+}
+
+
+
+/* Hero Section */
+.hero-section {
+    background-color: #cce7d7;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    color: #028d4d;
+}
+
+.hero-subtitle {
+    font-size: 1.125rem;
+    color: #6b7280;
+}
+
+/* Section Container */
+.section-container {
+    padding: 30px;
+    background-color: white;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #4b5563;
+}
+
+.section-description {
+    color: #6b7280;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.section-link {
+    color: #16a34a;
+    text-decoration: none;
+}
+
+.section-link:hover {
+    text-decoration: underline;
+}
+
+/* Course Container */
+.course-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.course-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.course-title {
+    font-size: 1.25rem;
+    color: #028d4d;
+    font-weight: bold;
+}
+
+.course-description {
+    font-size: 1rem;
+    color: #6b7280;
+}
+
+/* FAQ Section */
+.faq-section {
+    padding: 30px;
+    background-color: white;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faq-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #4b5563;
+    text-align: center;
+}
+
+.faq-list {
+    margin-top: 20px;
+}
+
+.faq-question {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #028d4d;
+}
+
+.faq-answer {
+    color: #6b7280;
+}
+
+.faq-link {
+    color: #16a34a;
+}
+
+.faq-link:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer-section {
+    background-color: rgba(4, 120, 87, 1);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-section p {
+    font-size: 0.875rem;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .mobile-menu {
+        display: block;
+    }
+
+    .course-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+    </style>
+</head>
+
+<body class="bg-gray-100">
+    <header>
+        <div class="container">
+            <h1>Department of Computer Sciences</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="acadamics.html">Academics</a>
+                <a href="index.html">Research</a>
+                <a href="https://cs.qau.edu.pk/admissions.php" target="_blank">Admissions</a>
+                <a href="faculty.html">Faculty</a>
+            </nav>
+            <button id="hamburger-menu">
+                <span class="material-icons">menu</span>
+            </button>
+        </div>
+    </header>
+
+    <div id="mobile-menu">
+        <a href="index.html">Home</a>
+        <a href="acadamics.html">Academics</a>
+        <a href="index.html">Research</a>
+        <a href="https://cs.qau.edu.pk/admissions.php" target="_blank">Admissions</a>
+        <a href="faculty.html">Faculty</a>
+    </div>
+
+    <section class="hero-section">
+        <h2 class="hero-title">MPhil (Computer Science)</h2>
+        <p class="hero-subtitle">A two-year full-time research-oriented program</p>
+    </section>
+
+    <section class="section-container">
+        <h3 class="section-title">MPhil University Policy/Rules</h3>
+        <p class="section-description">For detailed information regarding the MPhil University Policy and Rules, please visit the official <a href="http://qau.edu.pk/mphil-policy/" class="section-link">MPhil Policy/Rules</a> page.</p>
+    </section>
+
+    <section class="section-container">
+        <h3 class="section-title">Fee Structure</h3>
+        <p class="section-description">Please visit the university's official website for detailed information about the fee structure for the MPhil program: <a href="http://qau.edu.pk/mphil-fee-structure/" class="section-link">Click here</a></p>
+    </section>
+
+    <section class="section-container">
+        <h3 class="section-title">Details about Admissions</h3>
+        <p class="section-description">For more information about the admissions process for MPhil in Computer Science, visit the official <a href="http://qau.edu.pk/mphil-admissions/" class="section-link">MPhil Admissions</a> page.</p>
+    </section>
+
+    <section class="section-container">
+        <h3 class="section-title">MPhil in Computer Science Overview</h3>
+        <p class="section-description">The objective of the M.Phil Computer Science program is to train students to initiate research work. It lasts two years (4 semesters) with 50 credit hours, including 24 credits for coursework and 26 for research. The program emphasizes research work and aims to build a foundation for advanced studies.</p>
+    </section>
+
+    <section class="course-container">
+        <div class="course-card">
+            <h4 class="course-title">CSC-652: Advanced Analysis of Algorithms</h4>
+            <p class="course-description">An in-depth study of algorithm analysis, including dynamic programming, graph algorithms, encryption algorithms, and NP-completeness.</p>
+        </div>
+
+        <div class="course-card">
+            <h4 class="course-title">CSC-702: Advanced Operating Systems</h4>
+            <p class="course-description">Covers operating systems' fundamentals with a focus on distributed systems, fault tolerance, resource management, and scalable server design.</p>
+        </div>
+    </section>
+    <section class="elective-courses">
+        <div class="container">
+            <h3 class="section-title">Elective Courses</h3>
+            <ul class="course-list">
+                <li class="course-item">
+                    <div class="course-title">CSC-601: Theory of Computation</div>
+                    <p class="course-description">
+                        Models of computation, Turing machines, Chomsky hierarchy, decidability, and resource-bounded computational complexity.
+                    </p>
+                </li>
+                <li class="course-item">
+                    <div class="course-title">CSC-604: Advanced Software Engineering</div>
+                    <p class="course-description">
+                        Focuses on engineering principles, software project management, verification, validation, and cost-effective software design.
+                    </p>
+                </li>
+                <li class="course-item">
+                    <div class="course-title">CSC-611: Human and Information Interaction</div>
+                    <p class="course-description">
+                        Studies human interactions with information systems, information retrieval, behavior, usability, and search techniques.
+                    </p>
+                </li>
+                <li class="course-item">
+                    <div class="course-title">CSC-614: Software Quality Assurance and Testing</div>
+                    <p class="course-description">
+                        Focuses on software testing methods, quality assurance processes, and methodologies for effective software testing and validation.
+                    </p>
+                </li>
+                <li class="course-item">
+                    <div class="course-title">CSC-624: Requirements Engineering</div>
+                    <p class="course-description">
+                        Covers the principles and techniques used for gathering, analyzing, and specifying software requirements.
+                    </p>
+                </li>
+                <li class="course-item">
+                    <div class="course-title">CSC-631: Web Services</div>
+                    <p class="course-description">
+                        Teaches the design, implementation, and deployment of web services using industry-standard protocols and technologies.
+                    </p>
+                </li>
+                <li class="course-item">
+                    <div class="course-title">CSC-632: Advanced Web Development</div>
+                    <p class="course-description">
+                        Explores advanced web technologies, frameworks, and the development of scalable and efficient web applications.
+                    </p>
+                </li>
+                <li class="course-item">
+                    <div class="course-title">CSC-650: Web Science</div>
+                    <p class="course-description">
+                        Studies the interdisciplinary study of web technologies and the web's impact on society, economics, and information systems.
+                    </p>
+                </li>
+                <li class="course-item">
+                    <div class="course-title">CSC-651: Advanced Computer Architecture</div>
+                    <p class="course-description">
+                        Focuses on the design and performance analysis of modern computer systems and architectures.
+                    </p>
+                </li>
+                <li class="course-item">
+                    <div class="course-title">CSC-65X: Intelligent Information System</div>
+                    <p class="course-description">
+                        Explores artificial intelligence techniques, including machine learning, natural language processing, and expert systems.
+                    </p>
+                </li>
+                <li class="course-item">
+                    <div class="course-title">CSC-653: Natural Language Processing</div>
+                    <p class="course-description">
+                        Covers computational approaches to processing and understanding human language, including syntactic, semantic, and discourse analysis.
+                    </p>
+                </li>
+                <li class="course-item">
+                    <div class="course-title">CSC-654: Disciplined Software Processes</div>
+                    <p class="course-description">
+                        Introduces disciplined approaches to software engineering, emphasizing structured processes and methodologies.
+                    </p>
+                </li>
+                <li class="course-item">
+                    <div class="course-title">CSC-660: Research Methods</div>
+                    <p class="course-description">
+                        Teaches essential research methodologies and techniques used in computer science research, including hypothesis testing and data analysis.
+                    </p>
+                </li>
+                <li class="course-item">
+                    <div class="course-title">CSC-664: Knowledge Management for Software Engineering</div>
+                    <p class="course-description">
+                        Focuses on techniques and tools for managing knowledge in software engineering, including knowledge representation and organizational knowledge management.
+                    </p>
+                </li>
+                <li class="course-item">
+                    <div class="course-title">CSC-665: Cloud Computing</div>
+                    <p class="course-description">
+                        An introduction to cloud computing technologies, services, and architecture, including the use of cloud-based infrastructures and services.
+                    </p>
+                </li>
+                <li class="course-item">
+                    <div class="course-title">CSC-667: Wireless Sensor Networks</div>
+                    <p class="course-description">
+                        Covers the design, deployment, and management of wireless sensor networks for various applications, including monitoring and data collection.
+                    </p>
+                </li>
+                <li class="course-item">
+                    <div class="course-title">CSC-668: Advanced Computer Networks</div>
+                    <p class="course-description">
+                        Explores advanced topics in computer networking, including network protocols, security, and performance optimization.
+                    </p>
+                </li>
+                <li class="course-item">
+                    <div class="course-title">CSC-671: Theory of Programming Languages</div>
+                    <p class="course-description">
+                        Covers the theory behind programming languages, including syntax, semantics, and language design.
+                    </p>
+                </li>
+                <li class="course-item">
+                    <div class="course-title">CSC-672: Data Compression</div>
+                    <p class="course-description">
+                        Focuses on techniques for compressing and decompressing data in various formats, including lossless and lossy compression methods.
+                    </p>
+                </li>
+                <li class="course-item">
+                    <div class="course-title">CSC-673: Multimedia Technology</div>
+                    <p class="course-description">
+                        An introduction to multimedia technologies, including audio, video, graphics, and interactive media.
+                    </p>
+                </li>
+                <li class="course-item">
+                    <div class="course-title">CSC-674: Advanced Human-Computer Interaction</div>
+                    <p class="course-description">
+                        Covers advanced principles in human-computer interaction design, focusing on usability and user experience.
+                    </p>
+                </li>
+                <li class="course-item">
+                    <div class="course-title">CSC-675: Information Retrieval Systems</div>
+                    <p class="course-description">
+                        Teaches information retrieval models and algorithms, including indexing, searching, and ranking of information.
+                    </p>
+                </li>
+                <li class="course-item">
+                    <div class="course-title">CSC-677: World Wide Web and Society</div>
+                    <p class="course-description">
+                        Examines the impact of the World Wide Web on society, culture, and communication, including ethical and legal considerations.
+                    </p>
+                </li>
+                <li class="course-item">
+                    <div class="course-title">CSC-714: Software Architectures</div>
+                    <p class="course-description">
+                        Explores software architecture design and analysis, focusing on patterns, scalability, and maintainability.
+                    </p>
+                </li>
+                <li class="course-item">
+                    <div class="course-title">CSC-724: Software Patterns</div>
+                    <p class="course-description">
+                        Focuses on software design patterns, teaching the use of proven solutions to recurring design problems in software development.
+                    </p>
+                </li>
+            </ul>
+        </section>
+    
+
+    <section class="faq-section">
+        <h3 class="faq-title">Frequently Asked Questions (FAQs)</h3>
+        <dl class="faq-list">
+            <dt class="faq-question">When will MPhil admissions open?</dt>
+            <dd class="faq-answer">Admissions open in Fall semester for every academic year.</dd>
+
+            <dt class="faq-question">What is the eligibility criteria?</dt>
+            <dd class="faq-answer">MSc/ BS (4 years) in CS/SE/IT from the HEC recognized university.</dd>
+
+            <dt class="faq-question">How can I apply?</dt>
+            <dd class="faq-answer">Applications can be made online through the university website.</dd>
+
+            <dt class="faq-question">What is the fee structure?</dt>
+            <dd class="faq-answer">For fee details, please visit <a href="http://qau.edu.pk/mphil-fee-structure/" target="QAU" class="faq-link">this link</a>.</dd>
+        </dl>
+    </section>
+    <section class="useful-links-section">
+        <div class="container">
+            <div class="grid">
+              
+                <div class="useful-links">
+                    <h3>Useful Links</h3>
+                    <div class="links">
+                        <a href="https://qau.edu.pk/" class="link">QAU</a>
+                        <a href="https://cs.qau.edu.pk/admissions.php" class="link">Admissions</a>
+                        <a href="contact.html" class="link">Contact</a>
+                    </div>
+                </div>
+    
+                <!-- Department Information Section -->
+                <div class="department-info">
+                    <h3>Department of Computer Sciences</h3>
+                    <p>Quaid-i-Azam University, Islamabad, 45320, Pakistan</p>
+                    <p>Tel: +92 (051) 9064-2057</p>
+                </div>
+    
+                <!-- Programs Section -->
+                <div class="programs">
+                    <h3>Our Programs</h3>
+                    <div class="program-list">
+                        <a href="phd.html" class="program-link">PhD (Computer Science)</a>
+                        <a href="msit.html" class="program-link">MS (Information Science & Technology)</a>
+                        <a href="mphil.html" class="program-link">MPhil (Computer Science)</a>
+                        <a href="msds.html" class="program-link">MS (Data Science)</a>
+                        <a href="bs.html" class="program-link">BS (Computer Science)</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Department of Computer Sciences, QAU, Islamabad</p>
+        </div>
+    </footer>
+    
+
+    <script >
+        
+const hamburgerMenu = document.getElementById('hamburger-menu');
+const mobileMenu = document.getElementById('mobile-menu');
+
+hamburgerMenu.addEventListener('click', () => {
+    mobileMenu.classList.toggle('open');
+});
+
+    </script>
+
+</body>
+
+</html>
